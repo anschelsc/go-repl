@@ -1,10 +1,14 @@
+go-repl
+=======
+
 A compiling Go REPL.
 
 Builds up Go source as the session goes on, compiles and runs it with every input.
 
 A "!" in front of the input means it's in "unstable" mode, e.g. a package has been imported and isn't used, or errors occur in the source.
 
-Example session:
+Example session
+---------------
 
     Welcome to the Go REPL!
     Enter '?' for a list of commands.
@@ -79,6 +83,9 @@ Example session:
     3.1415927
     ! math fmt> 
 
-TODO:
+TODO
+----
+
 * Write automatic test with the above example session as input and expected output.
-* Integrate http://bitbucket.org/taruti/go-readline
+
+* Integrate <http://bitbucket.org/taruti/go-readline>
